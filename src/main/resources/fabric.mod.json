@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifypvp",
+  "version": "${version}",
+  "name": "Spotify PVP",
+  "description": "Control Spotify and see the current song, artist and time left on a small HUD.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.spotifypvp.SpotifyPvpMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
